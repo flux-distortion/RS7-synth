@@ -1,13 +1,14 @@
 EESchema Schematic File Version 4
+LIBS:power-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "RS7 Synth"
-Date "2019-10-17"
+Title "DIY Synth - Power Supply"
+Date "2019-08-04"
 Rev "A"
-Comp "flux-distortion"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -318,7 +319,7 @@ F 1 "SW_SPST" H 8000 3400 50  0000 C CNN
 F 2 "" H 8000 3250 50  0001 C CNN
 F 3 "~" H 8000 3250 50  0001 C CNN
 	1    8000 3250
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6850 2950 7750 2950
